@@ -412,12 +412,12 @@
                     </label>
 
                     <button type="submit" class="singup-btn">
-                        <div class="btn-wrapper">
+                        <span class="btn-wrapper">
                             Підписатися
                             <svg class="singup-icon" width="24" height="24">
                                 <use href="./images/sprite.svg#icon-send"></use>
                             </svg>
-                        </div>
+                        </span>
                     </button>
                 </form>
             </div>
@@ -431,6 +431,48 @@
                 <svg class="modal-close-icon" width="18" height="18">
                     <use href="./images/sprite.svg#icon-close"></use>
                 </svg> </button>
+            <p class="modalform-title">Залиште свої дані, ми вам передзвонимо</p>
+            <form class="modalform">
+                <label class="modalform-field">
+                    <span class="modalform-field-desc">Ім'я</span>
+                    <span class="modalform-input-wrapper">
+                        <input type="text" class="modalform-input" name="user-name">
+                        <svg class="modalform-icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-person-modal"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modalform-field">
+                    <span class="modalform-field-desc">Телефон</span>
+                    <span class="modalform-input-wrapper">
+                        <input type="tel" class="modalform-input" name="user-tel">
+                        <svg class="modalform-icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-phone-modal"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modalform-field">
+                    <span class="modalform-field-desc">Пошта</span>
+                    <span class="modalform-input-wrapper">
+                        <input type="email" class="modalform-input" name="user-email">
+                        <svg class="modalform-icon" width="18" height="18">
+                            <use href="./images/sprite.svg#icon-email-modal"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modalform-field">
+                    <span class="modalform-field-desc">Коментар</span>
+                    <textarea name="user-message" class="modalform-message" placeholder="Введіть текст"></textarea>
+                </label>
+                <label class="modalform-check-field">
+                    <input type="checkbox" name="user-policy" class="modalform-check" required>
+                    <svg class="modalform-own-checkbox">
+                        <use class="modalform-own-checkbox-icon" href="./images/sprite.svg#icon-check"></use>
+                    </svg>
+                    Погоджуюся з розсилкою та приймаю &nbsp; <a href="" class="privacy-link">Умови договору</a>
+                </label>
+                <button type="submit" class="modalform-btn">Відправити</button>
+            </form>
         </div>
     </div>
 
