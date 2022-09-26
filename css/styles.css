@@ -736,7 +736,7 @@ img {
     color: var(--primary-text-color);
 }
 
-.modalform-field {
+.modalform-field:nth-child(-n + 3) {
     margin-bottom: 10px;
 }
 
@@ -774,6 +774,7 @@ img {
 }
 
 .modalform-message {
+    display: block;
     width: 100%;
     height: 120px;
     border-radius: 4px;
@@ -798,7 +799,8 @@ img {
 .modalform-check-field {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    justify-content: center;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
